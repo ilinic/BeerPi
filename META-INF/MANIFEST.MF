@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Main-Class: gui.Launcher
+Class-Path: asm-7.1.jar jna-5.3.1.jar lwjgl-3.2.0.jar minlog-1.3.1.jar l
+ zma-java-1.3.jar objenesis-2.6.jar Utilities-1.2.jar kryo-5.0.0-RC2.jar
+  MessageBus-2.2.jar disruptor-3.4.2.jar typetools-0.6.1.jar disruptor-1
+ .2.15.jar slf4j-api-1.7.26.jar bcpg-jdk15on-1.60.jar reflectasm-1.11.9.
+ jar ShellExecutor-1.1.jar bctls-jdk15on-1.60.jar jna-platform-5.3.1.jar
+  lwjgl-xxhash-3.2.0.jar bcmail-jdk15on-1.60.jar bcpkix-jdk15on-1.60.jar
+  bcprov-jdk15on-1.60.jar javassist-3.23.0-GA.jar netty-all-4.1.24.Final
+ .jar koloboke-api-jdk8-1.0.0.jar koloboke-impl-jdk8-1.0.0.jar java-uuid
+ -generator-3.1.5.jar koloboke-impl-common-jdk8-1.0.0.jar jl1.0.1.jar jf
+ reechart.jar jcommon-1.0.8.jar jSerialComm-2.5.1.jar json-simple-1.1.1.
+ jar annotations-17.0.0.jar sqlite-jdbc-3.27.2.1.jar
+
