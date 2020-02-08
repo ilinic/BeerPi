@@ -1,0 +1,5 @@
+java
+sqlite
+12-autologin.conf
+sudo apt install ttf-mscorefonts-installer
+off screen lock
