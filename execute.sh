@@ -1,2 +1,5 @@
 #!/bin/sh
-sudo java -jar ./BeerPi_jar/BeerPi.jar -enableassertions
+while :
+do
+	sudo java -jar ./BeerPi_jar/BeerPi.jar -ea
+done
