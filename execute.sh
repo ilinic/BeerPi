@@ -1,5 +1,7 @@
 #!/bin/sh
 
+cd /home/khadas/Desktop/compiledBeerPi/
+
 sudo chmod u+x *.sh
 sudo chmod u+x BeerPi_jar/*.sh
 
