@@ -2,4 +2,4 @@
 sudo timedatectl set-timezone $2
 sudo date -s @$1
 sudo hwclock --systohc
-#sudo reboot -now
+sudo reboot --reboot
