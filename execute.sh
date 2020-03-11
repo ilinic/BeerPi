@@ -5,7 +5,6 @@ cd /home/pi/Desktop/compiledBeerPi/
 sudo chmod u+x *.sh
 sudo chmod u+x BeerPi_jar/*.sh
 sudo xset s off
-sudo xset dpms 0 0 0
 
 while :
 do
