@@ -1,6 +1,11 @@
 #!/bin/sh
 
+
 cd /home/pi/Desktop/compiledBeerPi/
+
+sudo chown -R $USER:$USER "$(git rev-parse --show-toplevel)/.git"
+sudo git fetch --all
+sudo git reset --hard origin/master
 
 sudo chmod a+x *.sh
 sudo chmod a+x BeerPi_jar/*.sh
