@@ -6,5 +6,5 @@ sudo chmod a+x *.sh
 sudo chmod a+x BeerPi_jar/*.sh
 sudo xset s off
 
-sudo java -Dprism.order=j2d -jar --module-path /usr/share/openjfx/lib --add-modules ALL-MODULE-PATH ./BeerPi_jar/BeerPi.jar -ea
+sudo java -Dprism.order=sw -jar --module-path /usr/share/openjfx/lib --add-modules ALL-MODULE-PATH ./BeerPi_jar/BeerPi.jar -ea
 read -p "Please press enter to continue..." nothing 
