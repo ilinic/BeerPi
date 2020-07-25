@@ -8,5 +8,5 @@ sudo xset s off
 
 #while :
 #do
-	sudo java -jar ./BeerPi_jar/BeerPi.jar -ea
+	sudo nice -20 java -Xms1G -jar ./BeerPi_jar/BeerPi.jar -ea
 #done
