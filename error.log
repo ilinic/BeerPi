@@ -1,4 +1,0 @@
-
-04:43:00 11-9-20 CRC fail: 50 -57 
-[model.UARTCommunicator.parseResponseAndNotify(UARTCommunicator.java:220), model.UARTCommunicator.run(UARTCommunicator.java:153)]
-04:45:55 11-9-20 CRC fail: 9 38 [model.UARTCommunicator.parseResponseAndNotify(UARTCommunicator.java:220), model.UARTCommunicator.run(UARTCommunicator.java:153)]
