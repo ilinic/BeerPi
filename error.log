@@ -1,2 +1,3 @@
 
 04:02:23 14-9-20 Null 'series' argument. [org.jfree.chart.util.Args.nullNotPermitted(Args.java:56), org.jfree.data.time.TimeSeriesCollection.addSeries(TimeSeriesCollection.java:329), gui.graphwindow.GraphWindow.generateGraph(GraphWindow.java:532), gui.graphwindow.GraphWindow$RegenThread.run(GraphWindow.java:728)]
+04:07:16 14-9-20 Null 'series' argument. [org.jfree.chart.util.Args.nullNotPermitted(Args.java:56), org.jfree.data.time.TimeSeriesCollection.addSeries(TimeSeriesCollection.java:329), gui.graphwindow.GraphWindow.generateGraph(GraphWindow.java:532), gui.graphwindow.GraphWindow$RegenThread.run(GraphWindow.java:728)]
