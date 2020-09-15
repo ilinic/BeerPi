@@ -6,6 +6,8 @@ off screen lock
 
 ntpdate -s ntp.ubuntu.com
 
+sudo apt install ntpdate
+
 
 sudo apt update
 sudo apt install default-jdk
