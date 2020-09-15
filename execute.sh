@@ -5,7 +5,7 @@ cd /home/pi/BeerPi/
 sudo chmod a+x *.sh
 sudo chmod a+x BeerPi_jar/*.sh
 sudo xset s off
-sudo xset lock off
+sudo xset s noblank
 sudo timedatectl set-ntp false
 
 while :
