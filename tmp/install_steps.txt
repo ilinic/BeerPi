@@ -6,6 +6,12 @@ off screen lock
 
 ntpdate -s ntp.ubuntu.com
 
+sudo apt install ntpdate
+
+
+sudo apt update
+sudo apt install default-jdk
+
 
 sqlite-----------------------
 
@@ -90,12 +96,12 @@ gpu_freq=750
 -----------------kiosk
 
 mkdir /home/pi/.config/autostart
-nano /home/pi/.config/autostart/clock.desktop
+nano /home/pi/.config/autostart/ceres.desktop
 
 [Desktop Entry]
 Type=Application
-Name=Clock
-Exec=/usr/bin/python3 /home/pi/clock.py
+Name=Ceres
+Exec=sh /home/pi/BeerPi/execute.sh
 
 /etc/xdg/lxsession/LXDE-pi/autostart
 
