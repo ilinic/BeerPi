@@ -8,7 +8,7 @@ sudo xset s off
 sudo xset s noblank
 sudo timedatectl set-ntp false
 
-while :
+for i in {1...8}
 do
 	sudo ionice -c 1 -n 0 java -jar /home/pi/BeerPi/BeerPi_jar/BeerPi.jar -ea --add-modules ALL-MODULE-PATH --add-opens java.base/java.lang=ALL-UNNAMED
 
