@@ -1,2 +1,2 @@
 #!/bin/sh
-chromium-browser uploadfiles.io
+sudo chromium-browser uploadfiles.io --no-sandbox
