@@ -87,5 +87,19 @@ arm_freq_min=100
 core_freq_min=100
 gpu_freq=750
 
+-----------------kiosk
+
+mkdir /home/pi/.config/autostart
+nano /home/pi/.config/autostart/clock.desktop
+
+[Desktop Entry]
+Type=Application
+Name=Clock
+Exec=/usr/bin/python3 /home/pi/clock.py
+
+/etc/xdg/lxsession/LXDE-pi/autostart
+
+comment out the line @lxpanel --profile LXDE-pi with # symbol
+
 
 
