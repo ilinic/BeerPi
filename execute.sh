@@ -5,6 +5,7 @@ cd /home/pi/BeerPi/
 sudo chmod a+x *.sh
 sudo chmod a+x BeerPi_jar/*.sh
 sudo xset s off
+sudo xset lock off
 sudo timedatectl set-ntp false
 
 while :
@@ -16,13 +17,10 @@ do
 	fi
 done
 
-sudo lxpanel --profile LXDE-pi
+lxpanel --profile LXDE-pi
 
 sudo timedatectl set-ntp true
 sudo ntpdate -s ntp.ubuntu.com
 
 sudo setxkbmap -option grp:switch,grp:alt_shift_toggle,grp_led:scroll us,ru
-cd /home/pi/BeerPi/
 sudo pcmanfm
-
-
