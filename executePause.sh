@@ -1,13 +1,13 @@
 #!/bin/sh
 
-
-cd /home/pi/Desktop/BeerPi/
+cd /home/pi/BeerPi/
 
 sudo chmod a+x *.sh
 sudo chmod a+x BeerPi_jar/*.sh
 sudo xset s off
+sudo xset s noblank
+sudo timedatectl set-ntp false
+sudo setxkbmap -option grp:switch,grp:alt_shift_toggle,grp_led:scroll us,ru
 
-#sudo nice -20 java -Dprism.order=sw -Xmx2G -jar --module-path /usr/share/openjfx/lib --add-modules ALL-MODULE-PATH ./BeerPi_jar/BeerPi.jar -ea
-#sudo nice -20 java -Xms=1G -Xmx=2G -jar ./BeerPi_jar/BeerPi.jar -ea
 sudo ionice -c 1 -n 0 java -jar /home/pi/BeerPi/BeerPi_jar/BeerPi.jar -ea --add-modules ALL-MODULE-PATH --add-opens java.base/java.lang=ALL-UNNAMED
 read -p "Please press enter to continue..." nothing 
