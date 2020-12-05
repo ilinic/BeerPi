@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Ceres2
+Exec=sh /home/ceres2/Desktop/BeerPi/execute.sh
+NoDisplay=false
+
