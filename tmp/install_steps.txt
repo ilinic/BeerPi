@@ -108,4 +108,8 @@ Exec=sh /home/pi/BeerPi/execute.sh
 comment out the line @lxpanel --profile LXDE-pi with # symbol
 
 
+sudo visudo 
+losst ALL=(ALL) NOPASSWD: A
+
+
 
